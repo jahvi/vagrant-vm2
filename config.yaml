@@ -187,7 +187,7 @@ apache:
         - rewrite
         - vhost_alias
     vhosts:
-        av_xnrzd2t9vzq1:
+        zzzzzzzzzzzzzzzz:
             servername: medialounge2.dev
             serveraliases:
                 - '*.medialounge2.dev'
