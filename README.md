@@ -25,7 +25,7 @@ Base local development config for Magento 2 projects
 
 ## Generate initial VM
 
-This repo is meant to be used in conjunction with [PuPHPet](https://puphpet.com/), to generate the initial VM files go to de PuPHPet website and drag the `config.yaml` file into it, then download the archive with the config options and unpack it anywhere locally. This will become the root for all websites under development, before starting make sure to run `vagrant up` in this directory to provision the VM with all required packages.
+This repo is meant to be used in conjunction with [PuPHPet](https://puphpet.com/), to generate the initial VM files go to the PuPHPet website and drag the `config.yaml` file into it, then download the archive with the config options and unpack it anywhere locally. This will become the root for all websites under development, before starting make sure to run `vagrant up` in this directory to provision the VM with all required packages.
 
 ## Extending config settings
 
