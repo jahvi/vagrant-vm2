@@ -27,6 +27,8 @@ Base local development config for Magento 2 projects
 
 This repo is meant to be used in conjunction with [PuPHPet](https://puphpet.com/), to generate the initial VM files go to the PuPHPet website and drag the `config.yaml` file into it, then download the archive with the config options and unpack it anywhere locally. This will become the root for all websites under development, before starting make sure to run `vagrant up` in this directory to provision the VM with all required packages.
 
+Make sure the included `stdev` file is inside the VM `puphpet` folder before running `vagrant up`, this will enable automatic subdomain mappings.
+
 ## Extending config settings
 
 The main [config file](https://github.com/jahvi/vagrant-vm2/blob/master/config.yaml) can be extended by creating create a `config-custom.yaml` file with the options that need changing. For example to change the VM id and hostname the `config-custom.yaml` file should look like this:
